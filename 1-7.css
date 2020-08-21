@@ -20,6 +20,7 @@ header h1 {
 .webcamp-box {
   width: 840px;
   padding-top: 20px;
+  padding-bottom: 50px;
   margin: 0 auto;
 }
 
@@ -27,3 +28,6 @@ header h1 {
   padding: 30px 0;
   border-bottom: thin solid gray;
 }
+
+/* 一番下50pxの余白ができていなかった */
+/* 余白を含めたitemの区切りは、「内容」＋「下部padding＋border＋margin」で１つとしても制作可能 */
